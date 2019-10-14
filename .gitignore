@@ -1,0 +1,4 @@
+/public/hot
+/vendor
+.env
+/.idea
