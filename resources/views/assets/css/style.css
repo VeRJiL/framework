@@ -1,0 +1,96 @@
+/* global variables */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a, ul, li {
+	color: black;
+	text-decoration: none;
+	list-style: none;
+}
+
+html {
+	background-image: url(../img/background-number1);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+body {
+	height: 100%;
+	width: 100%;
+}
+/*In This erea the mostly used components will be declared like btn or links or ...*/
+
+.btn-warning {
+	padding: 10px;
+	background-color: #ee0000;
+	box-shadow: 1px 1px 1px 1px #111;
+	border-radius: 5px;
+	border: 2px red solid;
+	cursor: pointer;
+}
+
+.btn-warning:hover {
+	background-color: #ff0000;
+	box-shadow: 3px 2px 1px 1px black;
+}
+
+.btn-success {
+	padding: 10px;
+	background-color: #00bb00;
+	box-shadow: 1px 1px 1px 1px #111;
+	border-radius: 5px;
+	border: 2px #00bb00 solid;
+	cursor: pointer;
+}
+
+.btn-success:hover {
+	background-color: #22ff55;
+	box-shadow: 3px 2px 1px 1px black;
+}
+
+/* In this erea there will be some custom stylesheets*/
+
+.header {
+	height: 190px;
+	width: 100%;
+}
+
+.container {
+	padding: 30px;
+	background-color: #999;
+}
+
+.navigation {
+	width: 100%;
+	height: 50px;
+	background-color: #777;
+	box-shadow: 1px 1px 1px 1px black;
+}
+
+.navigation ul li {
+	float: left;
+	padding: 15px;
+	border-right: 1px black solid;
+}
+
+.navigation ul li:hover {
+	background-color: #252525;
+}
+
+.footer {
+	width: 100%;
+	height: 150px;
+	box-shadow: 1px 1px 1px 1px black;
+	background-color: #777;
+	text-align: center;
+	line-height: 20px;
+}
+
+.footer i {
+	padding: 10px;
+	margin: 10px;
+	cursor: pointer;
+}
