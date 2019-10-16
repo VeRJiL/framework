@@ -1,6 +1,6 @@
 <?php
 
-$botToken = "384580432:AAFCoy7Vz9OvktjrgX1spAZhj5T8QLx8Qn0";
+$botToken = "asdfsadfsadfsadsdfsdf";
 $chat_id = "@dabatestbot";
 $message = "hi";
 $bot_url    = "https://api.telegram.org/bot$botToken/";
